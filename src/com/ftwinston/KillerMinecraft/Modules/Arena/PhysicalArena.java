@@ -1,5 +1,7 @@
 package com.ftwinston.KillerMinecraft.Modules.Arena;
 
+import org.bukkit.Location;
+
 public class PhysicalArena
 {
 	private int xMin, xMax, zMin, zMax;

@@ -65,7 +65,7 @@ public class Arena extends GameMode
 	public boolean allowWorldGeneratorSelection() { return false; }
 	
 	@Override
-	public Environment[] getWorldsToGenerate() { return new Environment[] { Environment.END }; }
+	public Environment[] getWorldsToGenerate() { return new Environment[] { Environment.THE_END }; }
 	
 	@Override
 	public boolean isLocationProtected(Location l, Player p)
