@@ -1,41 +1,16 @@
 package com.ftwinston.KillerMinecraft.Modules.Arena;
 
-import java.util.List;
-
 import com.ftwinston.KillerMinecraft.GameMode;
-import com.ftwinston.KillerMinecraft.Helper;
-import com.ftwinston.KillerMinecraft.KillerMinecraft;
 import com.ftwinston.KillerMinecraft.Option;
-import com.ftwinston.KillerMinecraft.PlayerFilter;
-import com.ftwinston.KillerMinecraft.Configuration.ChoiceOption;
 import com.ftwinston.KillerMinecraft.Configuration.TeamInfo;
-import com.ftwinston.KillerMinecraft.Configuration.ToggleOption;
 
-import org.bukkit.Bukkit;
-import org.bukkit.ChatColor;
 import org.bukkit.Location;
 import org.bukkit.OfflinePlayer;
-import org.bukkit.World;
 import org.bukkit.World.Environment;
-import org.bukkit.block.Block;
-import org.bukkit.enchantments.Enchantment;
 import org.bukkit.entity.Player;
-import org.bukkit.entity.TNTPrimed;
 import org.bukkit.event.EventPriority;
 import org.bukkit.event.EventHandler;
-import org.bukkit.event.block.Action;
-import org.bukkit.event.entity.EntityDamageEvent;
-import org.bukkit.event.entity.EntityShootBowEvent;
 import org.bukkit.event.entity.PlayerDeathEvent;
-import org.bukkit.event.inventory.PrepareItemCraftEvent;
-import org.bukkit.event.player.PlayerInteractEvent;
-import org.bukkit.event.player.PlayerPickupItemEvent;
-import org.bukkit.event.player.PlayerRespawnEvent;
-import org.bukkit.inventory.ItemStack;
-import org.bukkit.inventory.PlayerInventory;
-import org.bukkit.potion.PotionEffect;
-import org.bukkit.potion.PotionEffectType;
-import org.bukkit.Material;
 
 public class Arena extends GameMode
 {

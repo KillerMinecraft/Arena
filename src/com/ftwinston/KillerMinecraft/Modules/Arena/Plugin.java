@@ -1,14 +1,6 @@
 package com.ftwinston.KillerMinecraft.Modules.Arena;
 
-import java.util.ArrayList;
-
 import org.bukkit.Material;
-import org.bukkit.entity.EntityType;
-import org.bukkit.inventory.ItemStack;
-import org.bukkit.inventory.Recipe;
-import org.bukkit.inventory.ShapedRecipe;
-import org.bukkit.inventory.ShapelessRecipe;
-import org.bukkit.material.SpawnEgg;
 
 import com.ftwinston.KillerMinecraft.GameMode;
 import com.ftwinston.KillerMinecraft.GameModePlugin;
