@@ -1,6 +1,6 @@
 name: Arena
 main: com.ftwinston.KillerMinecraft.Modules.Arena.Plugin
-depend: [Killer Minecraft]
+depend: [Killer_Minecraft]
 version: 1
 load: STARTUP
 description: A game mode for Killer Minecraft
