@@ -4,6 +4,9 @@ import com.ftwinston.KillerMinecraft.GameMode;
 import com.ftwinston.KillerMinecraft.Option;
 import com.ftwinston.KillerMinecraft.Configuration.TeamInfo;
 
+import java.util.LinkedList;
+import java.util.List;
+
 import org.bukkit.Location;
 import org.bukkit.OfflinePlayer;
 import org.bukkit.World.Environment;
@@ -21,19 +24,13 @@ public class Arena extends GameMode
 	public Option[] setupOptions() { return new Option[] { }; }
 
 	@Override
-	public String getHelpMessage(int num, TeamInfo team)
+	public List<String> getHelpMessages(TeamInfo team)
 	{
-		switch ( num )
-		{
-			case 0:
-				return "Welcome to the arena! There are 4 arenas; red, green, blue & yellow. Each can play its own game, independent of the others.";
-			case 1:
-				return "The game mode for each arena can be selected using buttons before you start it.";
-			case 2:
-				return "PVP games last until all players but one are dead. Survival games last until all players are dead.";
-			default:
-				return null;
-		}
+		LinkedList<String> messages = new LinkedList<String>();
+		messages.add("Welcome to the arena! There are 4 arenas; red, green, blue & yellow. Each can play its own game, independent of the others.");
+		messages.add("The game mode for each arena can be selected using buttons before you start it.");
+		messages.add("PVP games last until all players but one are dead. Survival games last until all players are dead.");
+		return messages;
 	}
 	
 	@Override
